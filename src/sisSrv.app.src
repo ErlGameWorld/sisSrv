@@ -1,0 +1,11 @@
+{application, sisSrv,
+   [{description, "sisSrv application"},
+      {vsn, "0.1.0"},
+      {registered, []},
+      {mod, {sisSrv_app, []}},
+      {applications, [kernel, stdlib]},
+      {env, []},
+      {modules, []},
+      {licenses, ["MIT License"]},
+      {links, []}
+   ]}.
